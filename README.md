@@ -32,7 +32,7 @@ classDiagram
         +procesarPago()
     }
 
-    Cliente "1" --> "0..*" Pedido
+    Cliente "1" --> "0..*" Pedido_cliente
     Pedido_cliente "1" --> "1..*" Producto
     Pedido_cliente "1" --> "1" Pago
 ```
