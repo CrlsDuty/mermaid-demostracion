@@ -33,6 +33,6 @@ classDiagram
     }
 
     Cliente "1" --> "0..*" Pedido
-    Pedido "1" --> "1..*" Producto
-    Pedido "1" --> "1" Pago
+    Pedido_cliente "1" --> "1..*" Producto
+    Pedido_cliente "1" --> "1" Pago
 ```
