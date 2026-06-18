@@ -10,7 +10,7 @@ classDiagram
         +realizarPedido()
     }
 
-    class Pedido {
+    class Pedido_cliente {
         +int id
         +date fecha
         +string estado
